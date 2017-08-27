@@ -498,9 +498,12 @@ var pJS = function(tag_id, params){
 
 
   pJS.fn.particlesCreate = function(){
-    for(var i = 0; i < pJS.particles.number.value; i++) {
-      pJS.particles.array.push(new pJS.fn.particle(pJS.particles.color, pJS.particles.opacity.value));
-    }
+
+    //UNCOMMENT TO ADD Particles animation
+
+   // for(var i = 0; i < pJS.particles.number.value; i++) {
+   //   pJS.particles.array.push(new pJS.fn.particle(pJS.particles.color, pJS.particles.opacity.value));
+  //  }
   };
 
   pJS.fn.particlesUpdate = function(){
